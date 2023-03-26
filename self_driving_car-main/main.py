@@ -1,11 +1,11 @@
 import pygame
 pygame.init()
-window = pygame.display.set_mode((1200, 400))
-track = pygame.image.load('track3.png')
+window = pygame.display.set_mode((1200, 800))
+track = pygame.image.load('roboboat1.png')
 car = pygame.image.load('boatrbgpic.png')
-car = pygame.transform.scale(car, (50, 50))
-car_x = 155
-car_y = 300
+car = pygame.transform.scale(car, (70, 70))
+car_x = 260
+car_y = 500
 focal_dis = 25
 cam_x_offset = 0
 cam_y_offset = 0
